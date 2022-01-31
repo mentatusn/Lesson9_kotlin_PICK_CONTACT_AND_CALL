@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Lesson9_kotlin_PICK_CONTACT_AND_CALL</string>
+
+    <string name="need_permission_header">Дайте</string>
+    <string name="need_permission_text">Потому что</string>
+    <string name="need_permission_text_again">Ну а теперь идите в настройки и выдавайте разрешения вручную, раз такие умные</string>
+    <string name="need_permission_give">Да</string>
+    <string name="need_permission_dont_give">Нет</string>
+
+    <string name="call">Позвонить</string>
+    <string name="home">Домашний</string>
+    <string name="mobile">Мобильный</string>
+    <string name="work">Рабочий</string>
+    <string name="other">Другой</string>
+    <string name="btn_beginner_expl">Взят код фрагмента ContentProviderFragment с урока 9, в него добавили получение номера(функция getNumberFromID) и сам звонок( функция makeCall)</string>
+    <string name="btn_advanced_expl">Примерно то же самое, но на контрактах, и чуть больше фукций добавлено( например: научились разлачать Домашний Мобильный Рабочий номера, или когда его нет вовсе)</string>
+    <string name="beginner">beginner</string>
+    <string name="advanced">advanced</string>
 </resources>

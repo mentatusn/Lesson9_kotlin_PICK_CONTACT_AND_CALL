@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_beginner_expl"/>
+    <Button
+        android:id="@+id/btnBeginner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beginner" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_advanced_expl"/>
+    <Button
+        android:id="@+id/btnAdvanced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced" />
+
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
-
-    <Button
-            android:id="@+id/button_pick"
-            android:text="Open Picker!"
-            android:textAllCaps="false"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-    <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/text"
-            android:layout_marginTop="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/button_call"
-        android:text="Call"
-        android:textAllCaps="false"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
+        tools:context=".MainActivity" />
 
 </LinearLayout>
